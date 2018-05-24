@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-express-world",
+  "version": "1.0.0",
+  "description": "nodejs server express",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "apigee",
+    "api"
+  ],
+  "author": "harry vo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
