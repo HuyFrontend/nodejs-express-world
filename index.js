@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 
 app.use(bodyParser.json()); //for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
-
+app.use( express.static( `${__dirname}/dist` ) ); // get static file
 app.get('/', function (request, response) {
 	response.send('Hello World..!! From Express APP..!!');
 });
